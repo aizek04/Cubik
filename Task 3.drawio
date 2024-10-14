@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="6I0OCvxSQrVGMHxT2VVA" name="Page-1">
-    <mxGraphModel dx="2213" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2122" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,9 @@
           <mxGeometry x="184" y="330" width="766" height="140" as="geometry" />
         </mxCell>
         <mxCell id="QvSlPzRJ9jEedLhfL5Dx-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dKdSaXE48SgPbhcamS2K-40" target="QvSlPzRJ9jEedLhfL5Dx-5">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="514" y="850" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="dKdSaXE48SgPbhcamS2K-40" value="Transfer Funds" style="html=1;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.service;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="439" y="680" width="150" height="50" as="geometry" />
@@ -24,12 +26,6 @@
         </mxCell>
         <mxCell id="dKdSaXE48SgPbhcamS2K-55" value="Select Transfer Funds" style="html=1;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=collab;archiType=square;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="720" y="360" width="150" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="dKdSaXE48SgPbhcamS2K-58" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;System&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;rotation=90;" parent="1" vertex="1">
-          <mxGeometry x="840" y="710" width="240" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="dKdSaXE48SgPbhcamS2K-60" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;user&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;rotation=90;" parent="1" vertex="1">
-          <mxGeometry x="850" y="375" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dKdSaXE48SgPbhcamS2K-61" style="edgeStyle=elbowEdgeStyle;rounded=1;elbow=vertical;html=1;dashed=1;startSize=10;endArrow=block;endFill=0;endSize=10;jettySize=auto;orthogonalLoop=1;strokeColor=#808080;fontSize=14;" parent="1" source="dKdSaXE48SgPbhcamS2K-62" target="dKdSaXE48SgPbhcamS2K-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -58,8 +54,17 @@
         <mxCell id="QvSlPzRJ9jEedLhfL5Dx-4" value="Verify Security Question" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" vertex="1" parent="1">
           <mxGeometry x="346.5" y="510" width="150" height="75" as="geometry" />
         </mxCell>
+        <mxCell id="QvSlPzRJ9jEedLhfL5Dx-18" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;User&lt;/font&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="330" width="780" height="140" as="geometry" />
+        </mxCell>
         <mxCell id="QvSlPzRJ9jEedLhfL5Dx-5" value="Notify User" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=passive;archiType=square;" vertex="1" parent="1">
           <mxGeometry x="439" y="850" width="150" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="QvSlPzRJ9jEedLhfL5Dx-25" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;System&lt;/font&gt;" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="490" width="780" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="QvSlPzRJ9jEedLhfL5Dx-28" value="Notify User" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;align=center;fillColor=#99ffff;strokeColor=#0e8088;" vertex="1" parent="QvSlPzRJ9jEedLhfL5Dx-25">
+          <mxGeometry x="299" y="360" width="90" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
